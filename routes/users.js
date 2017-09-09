@@ -4,7 +4,7 @@ var Client = require('../model/client');
 var mongoose = require('mongoose');
 var clientdata;
 
-/* Get member page. */
+/* Get user page. */
 router.get('/', function(req, res, next) {
   if(req.cookies.logged){
     var uid = req.cookies.logged;
